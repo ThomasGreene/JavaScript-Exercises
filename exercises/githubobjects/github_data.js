@@ -4408,6 +4408,6 @@ const githubData = [
   ]
   githubData.forEach( function(taco) {
     if (taco.id === "8030403992") {
-      console.log(taco.payload.commits)
+      console.log(taco.payload.commits[0].message)
     }
-  })
+  });
